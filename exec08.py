@@ -3,6 +3,10 @@
 informe qual produto você deve comprar, sabendo que a 
 decisão é sempre pelo mais barato
 """
+print("____________________________________")
+print( " Bem vindos ao Mercado Minas é Aqui")
+print("____________________________________")
+
 #ENTRADA
 produto1 = float(input(" informe o Valor do Produto 1 :"))
 produto2 = float(input(" informe o Valor do Produto 2 : "))

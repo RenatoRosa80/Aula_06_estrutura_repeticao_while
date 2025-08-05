@@ -9,12 +9,19 @@ igual a sete;
 a dez
 
 """
+print("____________________________________")
+print( " NOTAS FINAIS DO SEMESTRE '2025'")
+print("____________________________________")
 #ENTRADAS
 nota1 = float(input(" Informe a primeira nota: "))
+nota1_arredondada = round(nota1, 0)
 nota2 = float(input(" Informe a Segunda nota: "))
+nota2_arredondada = round(nota2, 0)
 media_nota = (nota1 + nota2) / 2
-print(f"Nota 1: {nota1}")
-print(f"Nota 2: {nota2}")
+media_arredondada = round(media_nota, 0)  # Arredonda para 1 casa decimal
+
+print(f"Nota 1: {nota1_arredondada}")
+print(f"Nota 2: {nota2_arredondada}")
 
 
 #PROCESSAMENTO
@@ -23,16 +30,16 @@ print(f"Nota 2: {nota2}")
 igual a sete; 
 """
 if media_nota >= 7 and media_nota < 10:
-    print(f"A média foi de {media_nota:.2f}")
+    print(f"A média foi de {media_arredondada} ")
     print(" Aprovado!")
 #- A mensagem "Reprovado", se a média for menor do que sete; 
 elif media_nota < 7:
-    print(f"A média foi de {media_nota:.2f}")
+    print(f"A média foi de {media_arredondada}" )
     print(" Reprovado! Estude mais.")
 # - A mensagem "Aprovado com Distinção", se a média for igual a 10
 
 elif media_nota == 10:
-    print(f"A média foi de {media_nota:.2f}")
+    print(f"A média foi de {media_arredondada}")
     print(" Aprovado com Distincao! Parabéns.")
 else:
     print(" Dados inválidos. tente outra vez.")

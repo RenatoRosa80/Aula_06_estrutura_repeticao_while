@@ -2,6 +2,10 @@
 6. Faça um Programa que leia três números e mostre o maior 
 deles
 """
+print("____________________________________")
+print( " Bem vindos ao Mercado Minas é Aqui")
+print("____________________________________")
+
 #ENTRADA
 num1 = float(input(" Informe o primeiro número: "))
 num2 = float(input(" Informe o segundo número: "))
